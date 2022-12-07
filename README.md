@@ -1,6 +1,6 @@
 # sanity-ui-workshop-starter
 
-This is an example repo of using `@sanity/ui-workshop` to prototype, develop and test UI components.
+This is an example repo of using [`@sanity/ui-workshop`](https://github.com/sanity-io/ui-workshop) to prototype, develop and test UI components.
 
 ## Usage
 
