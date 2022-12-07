@@ -2,7 +2,7 @@ import {Box, Card, Container, Text} from '@sanity/ui'
 import {useString} from '@sanity/ui-workshop'
 import {CustomField} from '../CustomField'
 
-export default () => {
+export default function PropsStory() {
   const title = useString('Title', 'My custom field')
 
   return (
