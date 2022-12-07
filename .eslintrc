@@ -8,7 +8,7 @@
     "sanity",
     "sanity/typescript",
     "sanity/react",
-    "react/jsx-runtime",
+    "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],

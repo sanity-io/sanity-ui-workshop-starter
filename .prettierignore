@@ -1,3 +1,4 @@
 /.workshop
+/pnpm-lock.yaml
 
 dist
