@@ -1,0 +1,29 @@
+{
+  "include": ["./src", "./workshop.config.ts"],
+  "compilerOptions": {
+    "composite": true,
+
+    "outDir": "./dist",
+    "rootDir": ".",
+
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "target": "ES2022",
+
+    "jsx": "react-jsx",
+
+    "allowSyntheticDefaultImports": true,
+    "checkJs": false,
+    "declaration": true,
+    "downlevelIteration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "inlineSourceMap": false,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true
+  }
+}
