@@ -1,5 +1,5 @@
 {
-  "include": ["./src", "./workshop.config.ts"],
+  "include": ["./package.json", "./src", "./workshop.config.ts"],
   "compilerOptions": {
     "composite": true,
 
@@ -24,6 +24,9 @@
     "isolatedModules": true,
     "skipLibCheck": true,
     "sourceMap": false,
-    "strict": true
+    "strict": true,
+
+    // For importing `package.json` as a module
+    "resolveJsonModule": true
   }
 }
