@@ -1,5 +1,5 @@
 {
-  "include": ["./package.json", "./src", "./workshop.config.ts"],
+  "include": ["./package.json", "./src", "./test", "./workshop.config.ts"],
   "compilerOptions": {
     "composite": true,
 
